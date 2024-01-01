@@ -1,0 +1,547 @@
+/* Laptop small S */
+@media all and (max-width: 1919px) {
+    .biz-header-container {
+        width: 90% !important;
+    }
+    .ipcon-container,
+    .business-container,
+    .blockchain-title p {
+        width: 90%;
+    }
+    .onft-contents {
+        height: 600px;
+    }
+    .onft-title-wrap {
+        margin: 80px 0 160px 0;
+    }
+
+    .blockchain-title {
+        font-size: 65px;
+    }
+    .blockchain-title p::before {
+        width: 75%;
+    }
+    .blockchain-title img {
+        max-width: 80%;
+    }
+    
+}
+@media all and (max-width: 1440px) {
+    .business-nav-wrap nav a {
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .business-nav-wrap nav a::before {
+        width: 50px;
+        height: 50px;
+    }
+
+    .business-banner-wrap h2 {
+        font-size: 48px;
+    }
+    .business-banner-wrap h2::before {
+        height: 7px;
+        width: 70px;
+        bottom: -15px;
+    }
+    .business-banner-wrap > p {
+        margin: 200px 0;
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+
+    .onft-title-wrap {
+        margin: 60px 0 100px 0;
+    }
+    .onft-title-wrap h2 {
+        font-size: 48px;
+    }
+    .onft-title-wrap p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .onft-contents {
+        height: 400px;
+    }
+    .onft-contents li {
+        background-size: cover;
+    }
+    .onft-contents li:hover {
+        background-size: cover;
+    }
+    .onft-contents li p {
+        font-size: 34px;
+    }
+    
+    .blockchain-title {
+        font-size: 48px;
+        margin-top: 80px;
+    }
+    .blockchain-title h2::before {
+        height: 50px;
+        top: -45px;
+    }
+    .blockchain-title p {
+        margin-bottom: 25%;
+    }
+    .blockchain-title p::before {
+        height: 120px;
+        top: -127px;
+    }
+    .blockchain-onft-wrap p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .blockchain-onft .img-wrap .arrow > img {
+        width: 180px;
+    }
+    .blockchain-onft .img-wrap .arrow > p {
+        font-size: 48px;
+        top: -65px;
+    }
+
+    .ipcon-contents-wrap > img {
+        width: 100%;
+        margin: 40px auto;
+    }
+    .ipcon-main p {
+        font-size: 35px;
+    }
+    .ipcon-main strong {
+        font-size: 60px;
+    }
+    .ipcon-container .logo {
+        margin-bottom: 60px;
+    }
+    .ipcon-container .logo > img {
+        width: 270px;
+    }
+    .ipcon-container p {
+        font-size: 20px;
+    }
+
+    .footer-container {
+        width: 90%;
+    }
+
+
+
+}    
+@media all and (min-width: 1024px) and (max-width: 1440px){
+}
+/* Laptop E */
+
+/* Tablet and Mobile S */
+@media all and (max-width: 1023px) {
+    .biz-header-container {
+        padding: 30px 0 0 0;
+    }
+    .logo-wrap .logo {
+        margin-right: 15px;
+    }
+    .logo-wrap .logo img {
+        width: 120px;
+    }
+
+    .business-nav-wrap {
+        margin-top: 0;
+    }
+    .business-nav-wrap nav a {
+        font-size: 17px;
+        line-height: 32px;
+    }
+    .business-nav-wrap nav a::before {
+        width: 40px;
+        height: 40px;
+    }
+    .business-nav-wrap nav li:hover a::before {
+        display: none;
+    }
+    @keyframes navOpacity {
+        0% {
+            opacity: 0;
+            right: -30px;
+            transform: translateY(-70%);
+        }
+        100% {
+            opacity: 1;
+            right: -25px;
+            transform: translateY(-45%);
+        }
+    }
+
+    .onft-main-wrap,
+    .ipcon-contents-wrap {
+        background-image: url(../images/common/m_bg_shape.png);
+    }
+    .ipcon-contents-wrap {
+        padding: 100px 0;
+    }
+
+    .ipcon-main-wrap,
+    .blockchain-onft-wrap,
+    .business-banner-wrap {
+        height: 100vh;
+    }
+    .business-banner-wrap h2 {
+        font-size: 36px;
+        margin-bottom: 160px;
+    }
+    .business-banner-wrap h2::before {
+        height: 5px;
+        width: 55px;
+        bottom: -5px;
+    }
+    .business-banner-wrap > p {
+        font-size: 20px;
+        line-height: 35px;
+        margin: 0;
+    }
+    .scroll-wrap {
+        display: none;
+    }
+
+    .onft-title-wrap {
+        margin: 40px 0 70px 0;
+    }
+    .onft-title-wrap h2 {
+        font-size: 36px;
+    }
+    .onft-title-wrap p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .onft-contents {
+        height: 300px;
+    }
+    .onft-contents li::before {
+        display: none;
+    }
+    .onft-contents li p {
+        font-size: 24px;
+    }
+
+    .blockchain-title {
+        font-size: 36px;
+        margin-top: 60px;
+    }
+    .blockchain-title h2 {
+        border-bottom: 10px solid #000;
+    }
+    .blockchain-title h2::before {
+        height: 35px;
+        top: -30px;
+    }
+    .blockchain-title p::before {
+        height: 90px;
+        top: -95px;
+    }
+
+
+    .blockchain-onft-wrap p {
+        font-size: 17px;
+        line-height: 28px;
+        margin-bottom: 15%;
+    }
+    .blockchain-onft .img-wrap .arrow > img {
+        width: 125px;
+    }
+    .blockchain-onft .img-wrap .arrow > p {
+        font-size: 36px;
+        top: -50px;
+    }
+
+    .business-banner-wrap.ipcon-banner {
+        background-image: url(../images/ipcon/ipcon_m_banner.png);
+    }
+    .ipcon-main p {
+        font-size: 28px;
+        line-height: 95px;
+    }
+    .ipcon-main strong {
+        font-size: 45px;
+    }
+    .ipcon-main em::after {
+        width: 15px;
+        height: 15px;
+        top: -5px;
+    }
+
+    .ipcon-contents-wrap .pc-view {
+        display: none;
+    }
+    .ipcon-container .logo {
+        margin-bottom: 50px;
+    }
+    .ipcon-container .logo > img {
+        width: 210px;
+    }
+    .ipcon-contents-wrap > img {
+        width: 100%;
+        margin: 30px auto;
+    }
+    .ipcon-container p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    footer {
+        padding: 60px 0;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-container .logo > img {
+        width: 140px;
+    }
+    .ipverse-info {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+/* Tablet and Mobile E */
+
+
+/* Tablet S */
+@media all and (min-width: 768px) and (max-width: 1023px){
+    
+}
+/* Tablet E */
+
+/* Mobile S */
+@media all and (max-width: 767px){
+    .biz-header-container {
+        padding: 20px 0 0 0;
+    }
+    .logo-wrap .logo img {
+        width: 70px;
+    }
+    .logo-wrap {
+        display: block;
+    }
+
+    .business-nav-wrap {
+        margin-top: -15px;
+    }
+    .business-nav-wrap nav a {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .business-nav-wrap nav a::before {
+        width: 30px;
+        height: 30px;
+    }
+    @keyframes navOpacity {
+        0% {
+            opacity: 0;
+            right: -25px;
+            transform: translateY(-60%);
+        }
+        100% {
+            opacity: 1;
+            right: -20px;
+            transform: translateY(-40%);
+        }
+    }
+
+    .business-banner-wrap h2 {
+        font-size: 24px;
+        margin-bottom: 120px;
+    }
+    .business-banner-wrap h2::before {
+        height: 4px;
+        width: 40px;
+        bottom: 5px;
+    }
+    .business-banner-wrap > p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .onft-title-wrap {
+        flex-direction: column;
+        margin: 40px 0 50px 0;
+    }
+    .onft-title-wrap h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .onft-title-wrap p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .onft-main-wrap .pc-view {
+        display: none;
+    }
+    .onft-contents {
+        height: 200px;
+    }
+    .onft-contents li {
+        margin-right: 1%;
+    }
+    .onft-contents li p {
+        font-size: 15px;
+        bottom: 15px;
+    }
+
+    .blockchain-title {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .blockchain-title h2 {
+        border-bottom: 6px solid #000;
+    }
+    .blockchain-title h2::before {
+        height: 25px;
+        top: -25px;
+    }
+    .blockchain-title p::before {
+        height: 65px;
+        top: -68.5px;
+    }
+
+    .blockchain-onft-wrap p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .blockchain-onft .img-wrap .arrow > img {
+        width: calc(50% - 45px);
+        transform: translateX(10%);
+    }
+    .blockchain-onft .img-wrap .arrow > p {
+        font-size: 22px;
+        top: 0;
+        transform: translateY(-85%);
+    }
+
+    .ipcon-contents-wrap {
+        padding: 60px 0;
+    }
+    .ipcon-contents-wrap > img {
+        padding: 0;
+    }
+    .ipcon-main p {
+        font-size: 22px;
+        line-height: 70px;
+    }
+    .ipcon-main strong {
+        font-size: 37px;
+    }
+    .ipcon-main em::after {
+        width: 10px;
+        height: 10px;
+    }
+
+    .ipcon-container .logo {
+        margin-bottom: 30px;
+    }
+    .ipcon-container .logo > img {
+        width: 150px;
+    }
+    .ipcon-contents-wrap > img {
+        margin: 15px auto;
+    }
+    .ipcon-flow.web-flow {
+        display: none;
+    }
+    .ipcon-flow.mobile-flow {
+        display: block;
+    }
+    .ipcon-container p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+    .footer-container .logo > img {
+        width: 120px;
+    }
+    .ipverse-info {
+        margin-top: 0;
+    }
+    .ipverse-info > ul {
+        margin-bottom: 15px;
+    }
+    .ipverse-sns {
+        margin: 30px auto 0 auto;
+    }
+    .ipverse-info span,
+    .ipverse-info address,
+    .ipverse-sns > p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .ipverse-info span:first-of-type {
+        width: 65px;
+    }
+    .ipverse-info small {
+        font-size: 11px;
+    }
+    .ipverse-sns > p {
+        text-align: center;
+    }
+}
+@media all and (max-width: 379px) {
+    .business-banner-wrap h2 {
+        font-size: 22px;
+    }
+    .business-banner-wrap > p {
+        font-size: 15px;
+    }
+
+
+    .onft-title-wrap {
+        margin: 20px 0 30px 0;
+    }
+    .onft-title-wrap h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .onft-title-wrap p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .onft-contents {
+        height: 150px;
+    }
+    .onft-contents li p {
+        font-size: 13px;
+        bottom: 8px;
+    } 
+
+    .blockchain-onft-wrap p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .blockchain-onft .img-wrap .arrow > p {
+        font-size: 18px;
+        top: 0;
+    }
+
+    .ipcon-main p {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .ipcon-main strong {
+        font-size: 30px;
+    }
+    .ipcon-main em::after {
+        width: 7px;
+        height: 7px;
+    }
+
+    .ipcon-container .logo {
+        margin-bottom: 20px;
+    }
+    .ipcon-container .logo > img {
+        width: 120px;
+    }
+    .ipcon-container p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+/* Mobile E */
