@@ -1,0 +1,29 @@
+<div class="biz-header-container">
+    <div class="logo-wrap">
+        <h1 class="logo"><a href="/index.html"><img src="/images/header/logo_en_sm_wh.svg" alt="IPVERSE 화이트 영문 로고"></a></h1>
+    </div>
+
+    <div class="business-nav-wrap">
+        <nav>
+            <ul>
+                <li><a href="/onft.html">ONFT</a></li>
+                <li><a href="/ipcon.html">IPCON</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<script>
+    $(function() {
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $(".business-nav-wrap nav a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest("li").addClass("on");
+                //for making parent of submenu active
+                $(this).closest("li").parent().parent().addClass("on");
+            }
+        });
+    }); 
+</script>

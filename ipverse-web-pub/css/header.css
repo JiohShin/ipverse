@@ -1,0 +1,221 @@
+
+header {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 40px 0 0 0;
+}
+.logo-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrap .logo {
+    margin-right: 28px;
+}
+.logo-wrap .logo a {
+    background-image: url;
+}
+.logo-wrap .logo.hd-hide {
+    display: block;
+}
+.logo-wrap .logo.white {
+    display: none;
+}
+.logo-wrap .logo.hd-hide {
+    display: none;
+}
+.logo-wrap .logo.black {
+    display: block;
+}
+
+.campass-menu-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.campass-menu-wrap > p {
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.campass-menu-wrap > p.black {
+    color: #000;
+}
+.campass-menu {
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.campass-menu > img {
+    position: relative;
+    right: -4.5px;
+    top: 4.5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.swiper-pagination {
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical>.swiper-pagination-bullets {
+    transform: translate3d(0, 0, 0) !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+.swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullet,
+.swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 22px 0 0 !important;
+    position: relative;
+    background: #FFFFFF !important;
+    width: 8px;
+    height: 8px;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet::before {
+    position: absolute;
+    display: block;
+    width: 24px;
+    top: 50%;
+    transform: translateX(8px) translateY(-50%);
+    height: 1px;
+    content: '';
+    background-color: #FFFFFF !important;
+}
+.swiper-pagination-bullet::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.swiper-pagination-bullet[aria-label="Go to slide 5"]::before {
+    display: none !important;
+}
+.swiper-pagination-bullet.black {
+    background: #000 !important;
+}
+.swiper-pagination-bullet.black::before {
+    background-color: #000 !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active.black {
+    border: 2px solid #000 !important;
+}
+
+.nav-wrap {
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: -80%;
+    display: none;
+    z-index: 99;
+    height: 100vh;
+    width: 80vw;
+    background-image: url(../images/common/bg_shape.png);
+
+}
+.nav-container {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nav-container .close-container {
+    margin-left: auto;
+}
+.nav-container nav a {
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 140px;
+    letter-spacing: 0.5px;
+    color: #1E1E1E;
+    position: relative;
+}
+.nav-container nav a::before {
+    width: 0%;
+    height: 20px;
+    transition: .5s;
+    z-index: -1;
+    bottom: 10px;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    background: rgba(0, 71, 187, 0.5);
+    transform: skew(-20deg);
+}
+.nav-container nav li:hover a::before {
+    display: block;
+    width: 100%;
+}
+.nav-container address {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-weight: 500;
+    font-size: 18px;
+    color: #999999;
+}
+
+#cursor {
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
+#cursor.active {
+    transform: scale(0);
+}
+#stalker {
+    z-index: 9999;
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #0047BB;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: 0.2s;
+    opacity: .3;
+    pointer-events: none;
+}
+#stalker.active {
+    transform: scale(3);
+}
